@@ -1,0 +1,10 @@
+{
+  extends: [
+    "config:base"
+  ],
+  "reviewers": [
+    "gjoseph",
+  ],
+  prHourlyLimit: 50,
+  prCommitsPerRunLimit: 50,
+}

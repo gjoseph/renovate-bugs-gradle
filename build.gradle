@@ -1,0 +1,9 @@
+plugins {
+    id "java"
+}
+
+dependencies {
+    implementation platform("org.immutables:value:2.8.1")
+    annotationProcessor platform("org.immutables:value:2.8.1")
+    testAnnotationProcessor platform("org.immutables:value:2.8.1")
+}
